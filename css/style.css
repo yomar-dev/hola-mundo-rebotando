@@ -27,4 +27,19 @@ body{
 	align-items: center;
 	height: 100px;
 	width: 100px;
-}	
+	position: relative;
+	animation-name: rebotar;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+
+@keyframes rebotar {
+	0% {
+		left: 0;
+	}
+	100% {
+		left: 100%;
+	}
+}
